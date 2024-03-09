@@ -20,7 +20,7 @@ The **GatorLibrary Management System** is a software solution designed for manag
 
 ## Usage
 To execute the GatorLibrary Management System, open Command Prompt or PowerShell in the project folder and run the following command:
-
+'''markdown
 ```sh
 java gatorLibrary <filename>
 
@@ -52,14 +52,14 @@ Availability = "<Yes|No>"
 ...
 For detailed examples, refer to the provided Report.pdf.
 
-'''sh
+'''
 
-Contributing
+
 Contributions are welcome. Please feel free to fork the repository and submit pull requests.
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Acknowledgments
+# Acknowledgments
 Dr. Sartaj Sahni for project guidance
 The University of Florida for the educational opportunity
