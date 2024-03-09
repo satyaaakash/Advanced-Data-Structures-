@@ -20,14 +20,17 @@ The **GatorLibrary Management System** is a software solution designed for manag
 
 ## Usage
 To execute the GatorLibrary Management System, open Command Prompt or PowerShell in the project folder and run the following command:
+```
 
-```sh
 java gatorLibrary <filename>
+```
 
 
-Code Structure
+
+
+## Code Structure
 The project is divided into several key Java files:
-
+```
 EmptyRBNode.java: Defines a sentinel node for the Red-Black tree.
 RedBlackNode.java: Represents a node in the Red-Black tree, containing book information and reservation data.
 RedBlackTree.java: Manages the Red-Black tree structure for the library system.
@@ -35,7 +38,11 @@ MinHeap.java: Implements a Binary Min-Heap for managing book reservations.
 ReservationNode.java: Represents a node within the MinHeap, containing reservation details.
 NodeColor.java: An enumeration defining RED and BLACK colors used in the Red-Black tree.
 gatorLibrary.java: The main class that reads input commands, executes library operations, and generates an output file.
-Example Input and Output
+```
+
+
+## Example Input and Output:
+```
 Input Format
 scss
 Copy code
@@ -49,10 +56,10 @@ BookID = <bookID>
 Title = "<bookTitle>"
 Author = "<authorName>"
 Availability = "<Yes|No>"
+```
 ...
 For detailed examples, refer to the provided Report.pdf.
 
-'''
 
 ##
 Contributions are welcome. Please feel free to fork the repository and submit pull requests.
